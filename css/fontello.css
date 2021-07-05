@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello51d9.eot?76468190');
+  src: url('../fonts/fontello51d9.eot?76468190#iefix') format('embedded-opentype'),
+       url('../fonts/fontello51d9.html?76468190') format('woff2'),
+       url('../fonts/fontello51d9.woff?76468190') format('woff'),
+       url('../fonts/fontello51d9.ttf?76468190') format('truetype'),
+       url('../fonts/fontello51d9.svg?76468190#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?76468190#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-group:before { content: '\e800'; } /* '' */
+.icon-books:before { content: '\e801'; } /* '' */
+.icon-bullet:before { content: '\e802'; } /* '' */
+.icon-courthouse:before { content: '\e803'; } /* '' */
+.icon-criminal:before { content: '\e804'; } /* '' */
+.icon-detective:before { content: '\e805'; } /* '' */
+.icon-evidence:before { content: '\e806'; } /* '' */
+.icon-fingerprint:before { content: '\e807'; } /* '' */
+.icon-folder:before { content: '\e808'; } /* '' */
+.icon-footprint:before { content: '\e809'; } /* '' */
+.icon-gavel:before { content: '\e80b'; } /* '' */
+.icon-glasses:before { content: '\e80c'; } /* '' */
+.icon-handcuffs:before { content: '\e80d'; } /* '' */
+.icon-hourglass:before { content: '\e80e'; } /* '' */
+.icon-judge:before { content: '\e80f'; } /* '' */
+.icon-judge-1:before { content: '\e810'; } /* '' */
+.icon-judge-2:before { content: '\e811'; } /* '' */
+.icon-jury:before { content: '\e812'; } /* '' */
+.icon-law-book:before { content: '\e813'; } /* '' */
+.icon-lawyer:before { content: '\e814'; } /* '' */
+.icon-lawyer-1:before { content: '\e815'; } /* '' */
+.icon-letter:before { content: '\e816'; } /* '' */
+.icon-libra:before { content: '\e817'; } /* '' */
+.icon-money-bag:before { content: '\e818'; } /* '' */
+.icon-newspaper:before { content: '\e819'; } /* '' */
+.icon-oath:before { content: '\e81a'; } /* '' */
+.icon-padlock:before { content: '\e81b'; } /* '' */
+.icon-police:before { content: '\e81c'; } /* '' */
+.icon-police-badge:before { content: '\e81d'; } /* '' */
+.icon-police-car:before { content: '\e81e'; } /* '' */
+.icon-policeman:before { content: '\e81f'; } /* '' */
+.icon-portfolio:before { content: '\e820'; } /* '' */
+.icon-prison:before { content: '\e821'; } /* '' */
+.icon-prison-1:before { content: '\e822'; } /* '' */
+.icon-prison-bus:before { content: '\e823'; } /* '' */
+.icon-prisoner:before { content: '\e824'; } /* '' */
+.icon-safebox:before { content: '\e825'; } /* '' */
+.icon-scroll:before { content: '\e826'; } /* '' */
+.icon-search:before { content: '\e827'; } /* '' */
+.icon-sheriff:before { content: '\e828'; } /* '' */
+.icon-siren:before { content: '\e829'; } /* '' */
+.icon-statement:before { content: '\e82a'; } /* '' */
+.icon-student:before { content: '\e82b'; } /* '' */
+.icon-traffic-cone:before { content: '\e82c'; } /* '' */
+.icon-typewriter:before { content: '\e82d'; } /* '' */
+.icon-witness:before { content: '\e82e'; } /* '' */
+.icon-writing-tool:before { content: '\e82f'; } /* '' */
+.icon-act:before { content: '\e830'; } /* '' */
+.icon-agreement:before { content: '\e831'; } /* '' */
+.icon-bars:before { content: '\e832'; } /* '' */
+.icon-baton:before { content: '\e833'; } /* '' */
+.icon-house-2:before { content: '\e834'; } /* '' */
+.icon-handshake:before { content: '\e835'; } /* '' */
+.icon-fracture-arm:before { content: '\e836'; } /* '' */
+.icon-left-quote:before { content: '\e837'; } /* '' */
